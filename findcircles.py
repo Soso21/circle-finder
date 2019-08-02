@@ -12,7 +12,8 @@ def borderImage(scale, image):
 	return  cv2.copyMakeBorder(image, top, bottom, left, right, borderType = cv2.BORDER_REPLICATE)
 
 #read in the files
-url = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+#url = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+url == ""
 if url == "":
 	url = input("Enter URL: ")
 response = requests.get(url)
@@ -79,3 +80,4 @@ else:
 	print("No circles were found!")
 	cv2.imshow("No circles", img)
 	cv2.waitKey(0)
+
