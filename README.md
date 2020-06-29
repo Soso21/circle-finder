@@ -9,7 +9,7 @@ Circle Finder is a script that can find circles or round-shaped objects in an im
 Just download the script and run it directly! It will guide you through the steps.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are very welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
